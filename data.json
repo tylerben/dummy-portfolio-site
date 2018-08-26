@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "The Random Quote Generator displays a randomly selected quote each time the user clicks a button.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/tylerben/treehouse-project-1",
+      "image_urls": ["./public/images/project1/screenshot1.png", "./public/images/project1/screenshot2d.png"]
+    },
+    {
+      "id": 1,
+      "project_name": "Pagination",
+      "description": "Long lists don't make for a good user experience on a web page. This project enhances the usability of a web page that contains a long list by employing JavaScript to dynamically divide the list into \"pages\". As a bonus, the user can use a search feature to display only the students that match the search criteria.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/tylerben/treehouse-project-2",
+      "image_urls": ["./public/images/project2/screenshot1.png", "./public/images/project2/screenshot2d.png"]
+    },
+    {
+      "id": 2,
+      "project_name": "Build an Interactive Form",
+      "description": "This project highlights and engaging and dynamic form for registering for a conference.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/tylerben/treehouse-project-3",
+      "image_urls": ["./public/images/project3/screenshot1.png", "./public/images/project3/screenshot2d.png"]
+    },
+    {
+      "id": 3,
+      "project_name": "Tic-Tac-Toe",
+      "description": "This fun two-person Tic-Tac-Toe game uses professional programming techniques to solve data-modeling problems with elegant JavaScript code and object-oriented programming.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/tylerben/treehouse-project-4",
+      "image_urls": ["./public/images/project4/screenshot1.png", "./public/images/project4/screenshot2d.png"]
+    },
+    {
+      "id": 4,
+      "project_name": "Use a Public API to Create an Employee Directory",
+      "description": "This project uses JavaScript to create an interactive and searchable employee directory by communicating with a third-party API.",
+      "technologies": ["HTML", "CSS", "JavaScript", "APIs"],
+      "live_link": "",
+      "github_link": "https://github.com/tylerben/treehouse-project-5",
+      "image_urls": ["./public/images/project5/screenshot1.png", "./public/images/project5/screenshot2d.png"]
+    },
+  ]
+}
