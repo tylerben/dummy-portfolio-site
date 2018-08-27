@@ -6,7 +6,10 @@
 			"technologies": ["HTML", "CSS", "JavaScript"],
 			"live_link": "",
 			"github_link": "https://github.com/tylerben/treehouse-project-1",
-			"image_urls": ["./public/images/project1/screenshot1.png", "./public/images/project1/screenshot2d.png"]
+			"image_urls": {
+					"featured": "./static/images/project1/main.png",
+					"secondary": ["./static/images/project1/screenshot1.png", "./static/images/project1/screenshot2.png"]
+			}
 		},
 		{
 			"id": 1,
@@ -15,7 +18,10 @@
 			"technologies": ["HTML", "CSS", "JavaScript"],
 			"live_link": "",
 			"github_link": "https://github.com/tylerben/treehouse-project-2",
-			"image_urls": ["./public/images/project2/screenshot1.png", "./public/images/project2/screenshot2d.png"]
+			"image_urls": {
+					"featured": "./static/images/project2/main.png",
+					"secondary": ["./static/images/project2/screenshot1.png", "./static/images/project2/screenshot2.png", "./static/images/project2/screenshot3.png"]
+			}
 		},
 		{
 			"id": 2,
@@ -24,7 +30,10 @@
 			"technologies": ["HTML", "CSS", "JavaScript"],
 			"live_link": "",
 			"github_link": "https://github.com/tylerben/treehouse-project-3",
-			"image_urls": ["./public/images/project3/screenshot1.png", "./public/images/project3/screenshot2d.png"]
+			"image_urls": {
+					"featured": "./static/images/project3/main.png",
+					"secondary": ["./static/images/project3/screenshot1.png","./static/images/project3/screenshot2.png"]
+			}
 		},
 		{
 			"id": 3,
@@ -33,7 +42,10 @@
 			"technologies": ["HTML", "CSS", "JavaScript"],
 			"live_link": "",
 			"github_link": "https://github.com/tylerben/treehouse-project-4",
-			"image_urls": ["./public/images/project4/screenshot1.png", "./public/images/project4/screenshot2d.png"]
+			"image_urls": {
+					"featured": "./static/images/project4/main.png",
+					"secondary": ["./static/images/project4/screenshot1.png","./static/images/project4/screenshot2.png","./static/images/project4/screenshot3.png"]
+			}
 		},
 		{
 			"id": 4,
@@ -42,7 +54,10 @@
 			"technologies": ["HTML", "CSS", "JavaScript", "APIs"],
 			"live_link": "",
 			"github_link": "https://github.com/tylerben/treehouse-project-5",
-			"image_urls": ["./public/images/project5/screenshot1.png", "./public/images/project5/screenshot2d.png"]
+			"image_urls": {
+					"featured": "./static/images/project5/main.png",
+					"secondary": ["./static/images/project5/screenshot1.png","./static/images/project5/screenshot2.png","./static/images/project5/screenshot3.png"]
+			}
 		}
 	]
 }
