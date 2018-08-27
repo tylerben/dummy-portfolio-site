@@ -1,5 +1,6 @@
 // Declare project dependencies
 const express = require('express');
+const path = require('path');
 const mainRoutes = require('./routes');
 
 // Create an express app
@@ -7,7 +8,7 @@ const mainRoutes = require('./routes');
 // Create a static server to serve assets
 const app = express();
 app.set('view engine', 'pug');
-app.use('/static', express.static('public'));
+app.use('/static', express.static(path.join(__dirname, 'public')));
 
 // Conigure application routes
 app.use(mainRoutes);
