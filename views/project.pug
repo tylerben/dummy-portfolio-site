@@ -26,7 +26,6 @@ block content
         a.button.expanded(href=`${project.live_link}`) Live Demo
         a.button.expanded(href=`${project.github_link}`) GitHub Repo
     
-    //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential emplyers will like to see. 
-    img.image(src=`/static/images/project${project.id+1}/screenshot2.png`)
-    //- img.image(src='https://placehold.it/1200x550')
-    //- img.image(src='https://placehold.it/1200x550')
+    //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential emplyers will like to see.
+    each image in project.image_urls.secondary 
+      img.image(src=`/${image}`)
