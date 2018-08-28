@@ -21,10 +21,17 @@ router.get('/project', (req, res) => {
 })
 
 // Project route
-router.get('/project/:id', (req, res) => {
+// If user requests a project that does not exist, return a 404 error
+router.get('/project/:id', (req, res, next) => {
   const { id } = req.params;
   const project = projects[id];
-  res.render('project', { project });
+  if ( project ) {
+    res.render('project', { project });
+  } else {
+    let err = new Error('Project Not Found. Please check the url in your browser\'s address bar.');
+    err.status = 404;
+    next(err);
+  }
 })
 
 // Export routes
