@@ -22,13 +22,13 @@ app.use((req, res, next) =>  {
   next(err);
 });
 
-// Error handling
+// Error handler
 app.use((err, req, res, next) => {
   res.status(err.status || 500);
   res.render('error', {
     message: err.message,
-    error: err,
-    status: err.status
+    status: err.status,
+    stack: err.stack
   });
 });
 
