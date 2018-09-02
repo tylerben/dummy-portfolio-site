@@ -22,15 +22,16 @@ app.use((req, res, next) =>  {
   next(err);
 });
 
-// Error handling
+// Error handler
 app.use((err, req, res, next) => {
   res.status(err.status || 500);
   res.render('error', {
     message: err.message,
-    error: err,
-    status: err.status
+    status: err.status,
+    stack: err.stack
   });
 });
+
 
 // Set the app to run on port 3000 and display a message that the app is running on localhost:3000
 app.listen(3000, () => {

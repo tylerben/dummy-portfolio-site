@@ -5,6 +5,7 @@ const data = require('../data.json');
 const { projects } = data;
 
 // Home route
+// Pass projects data as locals
 router.get('/', (req, res) => {
   res.render('index', { projects });
 });
@@ -21,7 +22,8 @@ router.get('/project', (req, res) => {
 })
 
 // Project route
-// If user requests a project that does not exist, return a 404 error
+// Pass requested project as data to locals
+// If user requests a project that does not exist, return a 404 error to be handled by error handler in app.js
 router.get('/project/:id', (req, res, next) => {
   const { id } = req.params;
   const project = projects[id];
